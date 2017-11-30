@@ -1,0 +1,8 @@
+/* Universal Styles */
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+}
