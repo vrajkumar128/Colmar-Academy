@@ -20,7 +20,6 @@ header #logo {
   height: 2rem;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: green;
   font-weight: bold;
   align-items: center;
 }
@@ -41,4 +40,43 @@ header nav a {
   padding-left: 1rem;
   text-decoration: none;
   color: black;
+}
+
+/* Main Banner Section */
+
+#main {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 2rem 1.5rem;
+  background-color: lightgray;
+}
+
+#main img {
+  max-width: 60%;
+  height: auto;
+  display: block;
+}
+
+#main #headline {
+  padding-left: 2rem;
+  width: 33%;
+}
+
+#main #headline h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+#main #headline p {
+  padding-top: 1.5rem;
+  font-size: 2rem;
+}
+
+#main #headline .button {
+  margin-top: 2rem;
+  text-align: center;
+  width: 90%;
+  padding: 1rem 0rem;
+  background-color: darkgray;
 }
