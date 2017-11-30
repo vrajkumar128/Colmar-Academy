@@ -1,8 +1,44 @@
 /* Universal Styles */
 
+html {
+  font-family: Arial, sans-serif;
+}
+
 /* Header */
 
 header {
   display: flex;
   align-items: center;
+  height: 4rem;
+  padding: 0rem 1.5rem;
+  border-bottom: 1px solid black;
+}
+
+header #logo {
+  display: flex;
+  flex: 1;
+  height: 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: green;
+  font-weight: bold;
+  align-items: center;
+}
+
+header #logo img {
+  max-height: 150%;
+  width: auto;
+  display: block;
+}
+
+header #logo span {
+  color: black;
+  font-weight: normal;
+  opacity: 0.75;
+}
+
+header nav a {
+  padding-left: 1rem;
+  text-decoration: none;
+  color: black;
 }
