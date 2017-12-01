@@ -10,6 +10,14 @@ h1,
   font-weight: bold;
 }
 
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
 img,
   video {
   display: block;
@@ -55,7 +63,6 @@ img,
 }
 
 .menu .item .details h3 {
-  font-size: 1.5rem;
   color: #EEB111;
 }
 
@@ -243,7 +250,6 @@ header nav a:last-child:hover {
 
 #learn h2 {
   text-align: center;
-  font-size: 2.5rem;
   color: white;
   text-shadow: 1px 1px 2px black;
 }
@@ -268,10 +274,6 @@ header nav a:last-child:hover {
   margin: 1rem 0 1.5rem 1rem;
 }
 
-#learn #subjects .subject .caption h3 {
-  font-size: 1.5rem;
-}
-
 #learn #subjects .subject .caption span {
   text-transform: uppercase;
   display: block;
@@ -284,6 +286,19 @@ header nav a:last-child:hover {
   background-color: #F3F5F5;
 }
 
+#thesis .container {
+  padding-bottom: 2rem;
+}
+
 #thesis h2 {
+  padding: 2rem 0;
   text-align: center;
+}
+
+#thesis .banner h3 {
+  margin-top: 2rem;
+}
+
+#thesis .banner p {
+  margin-top: 0.5rem;
 }
