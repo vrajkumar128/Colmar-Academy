@@ -186,7 +186,7 @@ header nav a:last-child:hover {
 }
 
 .info:hover {
-  background: linear-gradient(to right, #003F72, rgba(0, 63, 114, 0.75));
+  background-color: gray;
 }
 
 .info img {
@@ -223,4 +223,53 @@ header nav a:last-child:hover {
 .info .details a {
   text-decoration: none;
   color: #4A90E2;
+}
+
+/* Learn Section */
+
+#learn {
+  background: linear-gradient(to bottom right, #003F72, rgba(0, 63, 114, 0.75));
+}
+
+#learn .container {
+  max-width: 100%;
+  padding: 2rem 4.5rem;
+  flex-direction: column;
+}
+
+#learn h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+#learn #subjects {
+  margin: 2rem 0;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+#learn #subjects .subject {
+  background-color: white;
+  overflow: hidden;
+}
+
+#learn #subjects .subject img {
+  max-width: 100%;
+}
+
+#learn #subjects .subject .caption {
+  margin: 1rem 0 1.5rem 1rem;
+}
+
+#learn #subjects .subject .caption h3 {
+  font-size: 1.5rem;
+}
+
+#learn #subjects .subject .caption span {
+  text-transform: uppercase;
+  display: block;
+  padding: 0.5rem 0;
 }
