@@ -6,12 +6,12 @@ html {
 
 h1,
  h2,
- h3,
- h4 {
+ h3 {
   font-weight: bold;
 }
 
-img {
+img,
+  video {
   display: block;
   height: auto;
 }
@@ -26,8 +26,41 @@ img {
   width: 60%;
 }
 
-.banner img {
+.banner img,
+  .banner video {
   max-width: 100%;
+}
+
+.menu {
+  width: 40%;
+}
+
+.menu .item {
+  display: flex;
+  overflow: hidden;
+  transition: all 0.25s;
+}
+
+.menu .item:hover {
+  background-color: gray;
+}
+
+.menu .item img {
+  margin: 1rem;
+  max-width: 35%;
+}
+
+.menu .item .details {
+  margin: auto 0;
+}
+
+.menu .item .details h3 {
+  font-size: 1.5rem;
+  color: #EEB111;
+}
+
+.menu .item .details p {
+  margin: 0.5rem 0;
 }
 
 /* Header */
@@ -174,53 +207,24 @@ header nav a:last-child:hover {
   color: gray;
 }
 
-#info #menu {
-  width: 40%;
+#info .menu {
   border-left: 1px solid gray;
 }
 
-.info {
-  display: flex;
-  overflow: hidden;
-  transition: all 0.25s;
-}
-
-.info:hover {
-  background-color: gray;
-}
-
-.info img {
-  margin: 1rem;
-  max-width: 35%;
-}
-
-.info.orientation {
+#info .menu .item.orientation {
   margin-top: 2rem;
 }
 
-.info.campus {
+#info .menu .item.campus {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
 }
 
-.info.guest {
+#info .menu .item.guest {
   margin-bottom: 2rem;
 }
 
-.info .details {
-  margin: auto 0;
-}
-
-.info .details h3 {
-  font-size: 1.5rem;
-  color: #EEB111;
-}
-
-.info .details p {
-  margin: 0.5rem 0;
-}
-
-.info .details a {
+#info .menu .item .details a {
   text-decoration: none;
   color: #4A90E2;
 }
@@ -272,4 +276,14 @@ header nav a:last-child:hover {
   text-transform: uppercase;
   display: block;
   padding: 0.5rem 0;
+}
+
+/* Thesis Section */
+
+#thesis {
+  background-color: #F3F5F5;
+}
+
+#thesis h2 {
+  text-align: center;
 }
