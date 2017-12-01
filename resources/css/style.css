@@ -302,3 +302,21 @@ header nav a:last-child:hover {
 #thesis .banner p {
   margin-top: 0.5rem;
 }
+
+/* Footer */
+
+footer {
+  background-color: #F3F5F5;
+  border-top: 1px solid gray;
+}
+
+footer .container {
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+footer .container nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 0.5rem;
+}
