@@ -1,3 +1,5 @@
+<!-- todo: box-shadow, aria, background-image, img borders?, transparency?, polyfill, text-shadow, px->rems -->
+
 <!DOCTYPE html>
 <html>
 
@@ -13,10 +15,12 @@
 
   <!-- Header -->
   <header id="desktop">
-    <div id="logo">
-      <img src="resources/images/ic-logo.svg" />
-      <h3>Colmar<span>Academy</span></h3>
-    </div>
+    <a href="index.html">
+      <div id="logo">
+        <img src="resources/images/ic-logo.svg" />
+        <h3>Colmar<span>Academy</span></h3>
+      </div>
+    </a>
     <nav>
       <a href="#">On campus</a>
       <a href="#">Online</a>
@@ -62,7 +66,8 @@
         </div>
         <div class="menu">
           <div class="item orientation">
-            <img src="resources/images/information-orientation.jpg" />
+            <img class="desktop" src="resources/images/information-orientation.jpg" />
+            <img class="mobile" src="resources/images/information-orientation-mobile.jpg" />
             <div class="details">
               <h3><a href="#">Orientation date</a></h3>
               <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -70,7 +75,8 @@
             </div>
           </div>
           <div class="item campus">
-            <img src="resources/images/information-campus.jpg" />
+            <img class="desktop" src="resources/images/information-campus.jpg" />
+            <img class="mobile" src="resources/images/information-campus-mobile.jpg" />
             <div class="details">
               <h3><a href="#">Our campus</a></h3>
               <p>Find which campus is close by you</p>
@@ -78,7 +84,8 @@
             </div>
           </div>
           <div class="item guest">
-            <img src="resources/images/information-guest-lecture.jpg" />
+            <img class="desktop" src="resources/images/information-guest-lecture.jpg" />
+            <img class="mobile" src="resources/images/information-guest-lecture-mobile.jpg" />
             <div class="details">
               <h3><a href="#">Our guest lecture</a></h3>
               <p>Join a keynote with Oliver Sack about music in medical treatment</p>
