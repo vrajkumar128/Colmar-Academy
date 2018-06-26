@@ -4,6 +4,10 @@ html {
   font-family: "Arial", sans-serif;
 }
 
+body {
+  padding-bottom: 7.75rem;
+}
+
 h1,
   h2,
   h3 {
@@ -152,7 +156,7 @@ img,
 
 header {
   position: fixed;
-  z-index: 20;
+  z-index: 2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -305,6 +309,8 @@ main {
   background-color: rgba(243, 245, 245, 0.5);
   top: 5rem;
   overflow: hidden;
+  z-index: 1;
+  border-bottom: 1px solid gray;
 }
 
 main:before {
@@ -425,6 +431,10 @@ main:before {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
       flex-direction: column;
+}
+
+#info .banner img {
+  visibility: hidden;
 }
 
 #info .banner h2 {
@@ -642,9 +652,11 @@ main:before {
 
 footer {
   background-color: #F3F5F5;
-  border-top: 1px solid gray;
   color: gray;
   font-size: 0.75rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 footer .container {
